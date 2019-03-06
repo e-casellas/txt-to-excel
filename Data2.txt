@@ -1,0 +1,7 @@
+break, F3, purify, G1
+empty, E1, cleave, F2
+upset, P8, shut, K9
+nurse, R4, thump, H10
+dig, B5, love, G2
+behold, N7, dine, G9
+celebrate, Q5, sling, C4

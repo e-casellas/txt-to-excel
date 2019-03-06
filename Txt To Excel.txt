@@ -1,0 +1,8 @@
+1	Comment: This bot will set the given cells in Filedata Columns 2 and 4, to the string given in Filedata Columns 1 and 3.
+2	Excel: Open Spreadsheet "C:\Users\SLip023\Desktop\AA Files\Data2.xlsx". ActiveSheet: "Default". Session: Default
+3	Read From Text File: "C:\Users\SLip023\Desktop\AA Files\Data2.txt" Delimiter: 'Comma' Header: 'No' Trim Leading Space: "Yes" Trim Trailing Space: "Yes" Session: 'Default'
+4	Start Loop "Each row in a CSV/Text file of Session: Default"
+5	     Excel: Set value of Cell "$Filedata Column(2)$" with "$Filedata Column(1)$". Session: Default
+6	     Excel: Set value of Cell "$Filedata Column(4)$" with "$Filedata Column(3)$". Session: Default
+7	End Loop
+8	Excel: Close Spreadsheet. Session: Default
